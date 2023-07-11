@@ -13,7 +13,7 @@ const MAX_PAGE_SIZE = 20;
 const { mkdir, writeFile } = promises;
 
 /**
- * FilesCollection class to manage file documents
+ * This FilesCollection class to manage file documents
  */
 export class FilesCollection {
   constructor() {
@@ -21,7 +21,7 @@ export class FilesCollection {
   }
 
   /**
-   * Async function that finds a document by its ID.
+   * This Async function that finds a document by its ID.
    *
    * @param {string} id - The ID of the document to find.
    * @return {Promise<Object>} A promise that resolves to the document with the

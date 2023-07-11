@@ -4,7 +4,7 @@ import dBClient from './db';
 import redisClient from './redis';
 
 /**
- * Retrieves the email and password from a basic auth token provided in the
+ * This Retrieves the email and password from a basic auth token provided in the
  * Authorization header of a request.
  *
  * @param {Object} request - The request containing the authorization header.
@@ -22,7 +22,7 @@ export function getBasicAuthToken(request) {
 }
 
 /**
- * Returns the session token from the request header (x-token).
+ * This Returns the session token from the request header (x-token).
  *
  * @param {Object} request - The request object containing the headers.
  * @return {string|null} The session token if it exists, otherwise null.
@@ -34,7 +34,7 @@ export function getSessionToken(request) {
 }
 
 /**
- * Authenticates a user based on their email and password.
+ * This Authenticates a user based on their email and password.
  *
  * @param {string} email - The email address of the user.
  * @param {string} password - The password of the user.
@@ -50,7 +50,7 @@ export async function authenticateUser(email, password) {
 }
 
 /**
- * Generates a session token for the given user ID and stores it in Redis for
+ * This Generates a session token for the given user ID and stores it in Redis for
  * 24 hours.
  *
  * @param {string} userId - The user id for whom the session is being generated.

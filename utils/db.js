@@ -6,7 +6,7 @@ const DB_PORT = process.env.DB_PORT || 27017;
 const DB_DATABASE = process.env.DB_DATABASE || 'files_manager';
 
 /**
- * A MongoDB Client Class
+ * this A MongoDB Client Class
  */
 class DBClient {
   constructor() {
@@ -24,7 +24,7 @@ class DBClient {
   }
 
   /**
-   * Checks if the mongoDb client is alive.
+   * This Checks if the mongoDb client is alive.
    *
    * @return {boolean} The connection status of the mongoDb.
    */

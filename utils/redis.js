@@ -2,7 +2,7 @@ import { createClient } from 'redis';
 import { promisify } from 'util';
 
 /**
- * A Redis client class that can be used to interact with Redis.
+ * This A Redis client class that can be used to interact with Redis.
  */
 class RedisClient {
   constructor() {
@@ -24,7 +24,7 @@ class RedisClient {
   }
 
   /**
-   * Determines if the client is alive by pinging it.
+   * This Determines if the client is alive by pinging it.
    *
    * @return {boolean} Returns true if the client is alive, false otherwise.
    */
@@ -33,7 +33,7 @@ class RedisClient {
   }
 
   /**
-   * Sets a key-value pair and sets an expiry time for the key.
+   * This Sets a key-value pair and sets an expiry time for the key.
    *
    * @param {string} key - the key to set the value for
    * @param {any} value - the value to set for the key

@@ -3,7 +3,7 @@ import { promises } from 'fs';
 import generateThumbnail from 'image-thumbnail';
 import dBClient from './utils/db';
 import { FilesCollection } from './utils/file';
-
+//worker
 const { writeFile } = promises;
 
 const THUMBNAIL_SIZES = [500, 250, 100];

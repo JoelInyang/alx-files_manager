@@ -2,11 +2,11 @@ import dbClient from '../utils/db';
 import { userQueue } from '../worker';
 
 /**
- * UsersController class
+ * This UsersController class
  */
 class UsersController {
   /**
-   * Handles the creation of a new user.
+   * This Handles the creation of a new user.
    *
    * @param {Object} request - The request object containing the user's email
    * and password.

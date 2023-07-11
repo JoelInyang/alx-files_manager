@@ -1,6 +1,6 @@
 import express from 'express';
 import router from './routes';
-
+//server
 const app = express();
 app.use(express.json({ limit: '100mb' }));
 app.use(router);

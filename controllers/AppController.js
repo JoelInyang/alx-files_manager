@@ -2,11 +2,11 @@ import dbClient from '../utils/db';
 import redisClient from '../utils/redis';
 
 /**
- * AppController class
+ * This AppController class
  */
 class AppController {
   /**
-   * Retrieves the status of redisClient and dbClient, sets the response status
+   * This Retrieves the status of redisClient and dbClient, sets the response status
    * code to 200, and sends the status of the clients in a JSON format in the
    * response.
    *
@@ -24,7 +24,7 @@ class AppController {
   }
 
   /**
-   * Retrieves statistics from database and sends results in response.
+   * This Retrieves statistics from database and sends results in response.
    *
    * @param {Object} request - the request object
    * @param {Object} response - the response object

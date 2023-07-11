@@ -8,11 +8,11 @@ import {
 } from '../utils/auth';
 
 /**
- * AuthController class to handle authentication
+ * This AuthController class to handle authentication
  */
 class AuthController {
   /**
-   * Returns a session token for a given user by authenticating the user's
+   * This Returns a session token for a given user by authenticating the user's
    * email and password in the request's Basic Auth header. If successful,
    * returns a 200 status with the token in the response body. If authentication
    * fails, returns a 401 status with an error message in the response body.
@@ -41,7 +41,7 @@ class AuthController {
   }
 
   /**
-   * Deletes the session token of a user and logs them out.
+   * This Deletes the session token of a user and logs them out.
    *
    * @param {Object} request - the request object from the client
    * @param {Object} response - the response object to send to the client
@@ -66,7 +66,7 @@ class AuthController {
   }
 
   /**
-   * Asynchronously retrieves the authenticated user's information from the
+   * This Asynchronously retrieves the authenticated user's information from the
    * session token.
    *
    * @param {Object} request - The HTTP request object.

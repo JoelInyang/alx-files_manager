@@ -7,11 +7,11 @@ import fileQueue from '../worker';
 const { readFile } = promises;
 
 /**
- * FilesController class to manage user files
+ * This FilesController class to manage user files
  */
 class FilesController {
   /**
-   * Handles uploading a file by creating a new File object and saving it to
+   * This Handles uploading a file by creating a new File object and saving it to
    * the database.
    *
    * @param {Object} request - The HTTP request object.
@@ -52,7 +52,7 @@ class FilesController {
   }
 
   /**
-   * Returns a JSON response containing a file with the given id, if it belongs
+   * this Returns a JSON response containing a file with the given id, if it belongs
    * to the current user.
    *
    * @param {Object} request - the HTTP request object
